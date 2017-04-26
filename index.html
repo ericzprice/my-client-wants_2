@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Client Wants Project</title>
+	<!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+        <!-- Link to stylesheet -->
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- Added resposive nav bar, full width -->
+	<nav class="navbar navbar-default navbar-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Slacker Shoe City</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!-- Container for Jumbotron header -->
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Slip Free on Slack!</h1>
+			<p>Your new favorite slacklining shoe.</p>
+		</div>
+	</div>
+	<!-- Container with 2 cols to hold product images and panels with product info. All men's products in the left column and all women's in the right-->
+	<div class="container"> 
+		<div class="row">
+			<div class="col-md-6">
+				<h2>Men's</h2>
+				<img src="https://s7d1.scene7.com/is/image/MoosejawMB/10246346x1036965_zm?$thumb225$" alt="Five Ten Freerider" height="200"><br><br>
+				<div class="panel panel-info">
+					<div class="panel-heading">Five Ten Men's Freerider Shoe</div>
+					<div class="panel-body">$79.99</div>
+				</div>
+				<img src="https://s7d1.scene7.com/is/image/MoosejawMB/10320025x1037653_zm?$thumb225$" alt="Five Ten Danny Macaskill" height="200"><br><br>
+				<div class="panel panel-info">
+					<div class="panel-heading">Five Ten Men's Danny Macaskill Shoe</div>
+					<div class="panel-body">$99.99</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<h2>Women's</h2>
+				<img src="https://s7d1.scene7.com/is/image/MoosejawMB/10306719x1103330_zm?$thumb225$" alt="Five Ten Freerider Pro Shoe" height="200"><br><br>
+				<div class="panel panel-info">
+					<div class="panel-heading">Five Ten Women's Freerider Pro Shoe</div>
+					<div class="panel-body">$59.99</div>
+				</div>
+				<img src="https://s7d1.scene7.com/is/image/MoosejawMB/10306718x1124422_zm?$thumb225$" alt="Five Ten Kestrel Lace Shoe" height="200"><br><br>
+				<div class="panel panel-info">
+					<div class="panel-heading">Five Ten Women's Kestrel Lace Shoe</div>
+					<div class="panel-body">$79.99</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Container with large "BUY NOW!" button spanning it's width -->
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<!-- Made anchor tag into button so there is potential to link to a product page. Class btn-blue used to style button in stylesheet -->
+				<p>
+					<a class="btn btn-blue btn-lg btn-block" href="#" role="button">BUY NOW!</a>
+				</p>
+			</div>	
+		</div>	
+	</div>
+	<!-- Created footer with extra product images and "Add to cart" anchor tag buttons next to them -->
+	<div class="container">
+		<div class="row">
+			<footer>
+				<div class="col-md-4">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcOCoPcVe33r5wfVN2KbF6QJ3izlN4JeJ4_0Y0C0xjAByE7I9lhA" alt="sticker 1">
+					<a class="btn btn-success" href="#">Add to cart</a>
+				</div>
+				<div class="col-md-4">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEI6enpTwKl-pNppOHuwptZ-pyOCyCk6CC_KkM6__5lU3vbblV" alt="sticker 2">
+					<a class="btn btn-success" href="#">Add to cart</a>
+				</div>
+				<div class="col-md-4">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-ZVgVjQMW2lHHhM6x-_oEt17WF8UH7s9ZDmsWKHXS9AgIomGS" alt="sticker 3">
+					<a class="btn btn-success" href="#">Add to cart</a>
+				</div>
+			</footer>
+		</div>
+	</div>	
+</body>
+</html>

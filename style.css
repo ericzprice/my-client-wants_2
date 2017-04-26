@@ -1,0 +1,9 @@
+/*Using btn-blue class to override some of Bootstrap's predefined anchor tag colors*/
+
+.btn-blue{
+	color: white;
+	background-color: blue;
+}
+.btn-blue:hover{
+	background-color: hotpink;
+}
